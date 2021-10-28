@@ -1,0 +1,36 @@
+@media only screen and  (max-width: 992px){
+   
+   .email{
+       margin-top:10px !important
+   }
+    .banner_title{
+        white-space:wrap;
+        
+        font-size:20px
+    }
+
+    .banner_advertisement{
+        position:inherit;
+        
+        
+    }
+        .banner_advertisement h6 {
+                font-size:14px !important;
+            color:white !important;
+            white-space:wrap !important
+        }
+
+
+ .footer_end_links{
+     display:grid;
+     grid-template-columns:repeat(2,minmax(200px,992px));
+     grid-gap:20px
+ }
+
+ .products{
+    
+    grid-template-columns:  repeat(2,minmax(200px,3000px)) ;
+    grid-gap:0
+    
+}  
+}

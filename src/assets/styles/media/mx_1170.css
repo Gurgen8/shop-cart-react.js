@@ -1,0 +1,96 @@
+@media only screen and  (max-width: 1170px){
+   
+
+   .nav_label{
+     display:flex
+   }
+  
+   header .navigation{
+     display:none;
+    transition: all 0.8s;
+     margin-top:46px;
+     width:100%;
+     z-index:9999;
+     position:absolute;
+     height:0;
+     box-shadow:10px 7px 8px red !important;
+     opacity:0
+     
+   }
+   header .navigation ul a{
+     font-size:22px;
+     text-decoration:none;
+     padding:5px;
+     color:orange;
+    
+     
+     
+   }
+   header .navigation li:hover{
+     background:red;
+     color:white
+   }
+
+  header .navigation_ul{
+     width:100% !important;
+     background: black  !important;
+      box-shadow:10px 7px 10px orange !important;
+      opacity:0.9
+   }
+    .navigation ul  li{
+     padding-top:10px !important
+    }
+   header .navigation ul{
+      display:block;
+      width:100%;
+      background:gold;
+      position:inherit;
+     background:#F0EAD6;
+     opacity:0.99;
+     width:71%;
+     padding:10px;
+     
+    }
+
+    .assort_ul{
+          display: grid !important;
+    grid-gap: 20px;
+    margin: 0;
+    grid-template-columns: repeat(4, minmax(56px, 80px)) !important;
+    }
+
+    .footer_root{
+      display:grid !important;
+      margin:0;
+      grid-template-columns: repeat(2,minmax(200px,200px)) !important
+    }
+
+    .footer_logo{
+      width:auto;
+      margin:0;
+      padding-left:0 !important;
+      text-align:left !important
+    }
+    .footer_logo:nth-child(3){
+      margin-top:-90px
+    }
+
+    footer .navigation #navigation_ul_soc{
+      margin-left:-14px
+    }
+    .filters{
+      display: grid !important;
+    grid-template-columns: 1fr repeat(2,minmax(200px,3000px)) !important;
+    grid-gap: 20px;
+}
+  .products{
+      display: grid !important;
+    grid-template-columns:  repeat(3,minmax(200px,3000px)) !important;
+    grid-gap: 5px;
+}
+
+
+
+    }
+  
+  
